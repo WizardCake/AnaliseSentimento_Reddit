@@ -24,8 +24,8 @@ def coletar_comentarios(subreddit, palavra_chave, quantidade_posts, quantidade_c
     """
 
     reddit = praw.Reddit(
-        client_id='teixytiUh61PtIv0qvhO4w',
-        client_secret='sUdML6ymQ0hFrMs9rnskvMh9to_fhA',
+        client_id='', #[CLIENT-ID-HERE]
+        client_secret='', #[CLIENT-SECRET-HERE]
         user_agent="Analise_Sentimento/0.0.1"
     )
 
